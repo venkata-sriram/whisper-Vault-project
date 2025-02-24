@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+  </head>
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <span class="fs-4">Whisper thoughts</span>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          </ul>
+        </header>
+      </div>
+
+  <!---- body-->
+
+      <section>
+<div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">"Whispers carry secrets that only the heart can hear"</h1>
+        <p class="lead">The safest secrets are those locked in silence and guarded by trust, hidden where only the heart can find them. True security lies not just in secrecy, but in whom you choose to confide.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <form action="/check" method="POST">
+            <label for="password">Secrect Code:</label>
+            <input type="text" id="password" name="password" required  >
+            <input type="submit" value="Submit"  class="btn btn-light"  >
+          </form>
+          
+        </div>
+      </div>
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="data:image/jpeg;base64,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" class="d-block mx-lg-auto img-fluid" alt=" Themes" width="700" height="500" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+      </section>
+
+      
+<section>
+
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1></h1>
+            <p class="opacity-75"></p>
+            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1></h1>
+            <p>.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1></h1>
+            <p></p>
+            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!---foooter-->
+</section>
+
+<section>
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+    </footer>
+  </div>
+</section>
+
+
+
+      
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <script src="index.js"></script>
+</body>
+</html>
